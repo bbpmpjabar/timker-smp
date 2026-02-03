@@ -17,58 +17,55 @@
       color: #333;
     }
 
-    /* ================= HEADER ================= */
+    /* ===== HEADER ===== */
     header {
       background: #0a4ea1;
       color: #fff;
-      padding: 28px 16px;
+      padding: 22px 16px;
       text-align: center;
     }
 
     .logo {
-      width: 90px;
-      margin-bottom: 12px;
+      width: 80px;
+      margin-bottom: 8px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 22px;
+      font-size: 21px;
     }
 
     header p {
-      margin-top: 8px;
-      font-size: 14px;
+      margin-top: 6px;
+      font-size: 13px;
       opacity: 0.9;
     }
 
-    /* ================= CONTENT ================= */
+    /* ===== CONTENT ===== */
     .container {
       max-width: 1400px;
-      margin: 32px auto;
+      margin: 26px auto;
       padding: 0 16px;
     }
 
     .grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 18px;
+      gap: 14px;
     }
 
-    /* Tablet */
     @media (min-width: 600px) {
       .grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
 
-    /* Laptop */
     @media (min-width: 992px) {
       .grid {
         grid-template-columns: repeat(3, 1fr);
       }
     }
 
-    /* Desktop besar */
     @media (min-width: 1400px) {
       .grid {
         grid-template-columns: repeat(5, 1fr);
@@ -76,48 +73,50 @@
     }
 
     .card {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 24px;
+      background: #fff;
+      border-radius: 10px;
+      padding: 18px;
       text-align: center;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
       transition: 0.2s ease;
     }
 
     .card:hover {
-      transform: translateY(-4px);
+      transform: translateY(-3px);
     }
 
     .card h3 {
-      margin-top: 0;
-      font-size: 16px;
+      margin: 0 0 6px;
+      font-size: 15px;
       color: #0a4ea1;
     }
 
     .card p {
-      font-size: 13px;
+      margin: 0;
+      font-size: 12px;
       color: #555;
+      line-height: 1.4;
     }
 
     .card a {
       display: inline-block;
-      margin-top: 14px;
-      padding: 10px 18px;
+      margin-top: 10px;
+      padding: 8px 14px;
       background: #0a4ea1;
       color: #fff;
       text-decoration: none;
-      border-radius: 6px;
-      font-size: 14px;
+      border-radius: 5px;
+      font-size: 13px;
     }
 
     .card a:hover {
       background: #083e82;
     }
 
-    /* ================= FOOTER ================= */
+    /* ===== FOOTER ===== */
     footer {
       text-align: center;
-      padding: 22px 10px;
+      padding: 18px 10px;
       font-size: 12px;
       color: #777;
     }
@@ -125,15 +124,13 @@
 </head>
 <body>
 
-  <!-- ================= HEADER ================= -->
   <header>
     <img src="tutwuri.png" alt="Logo Instansi" class="logo">
-    <h1>Balai Besar Penjaminan Mutu Pendidikan Provinsi Jabar</h1>
-    <h1>Microsite Tim Kerja SMP</h1>
+    <h1>Balai Besar PEnajminan Mutu Pendidikan Provinsi Jawa Barat</h1>
+    <p></p><h1>Microsite Tim Kerja SMP</h1></p>
     <p>Pusat Akses Data, Materi, Dokumen, dan Kegiatan Tim Kerja SMP</p>
   </header>
 
-  <!-- ================= CONTENT ================= -->
   <div class="container">
     <div class="grid">
 
@@ -145,33 +142,31 @@
 
       <div class="card">
         <h3>📚 Materi & Regulasi</h3>
-        <p>Materi, kebijakan, dan regulasi terkait</p>
+        <p>Materi dan regulasi pendukung</p>
         <a href="LINK_GOOGLE_DRIVE_MATERI" target="_blank">Buka Tautan</a>
       </div>
 
       <div class="card">
-        <h3>📝 Dokumen Rapat Timker SMP</h3>
-        <p>Undangan, notulen, dan bahan rapat</p>
+        <h3>📝 Dokumen Rapat</h3>
+        <p>Undangan dan notulen rapat</p>
         <a href="LINK_GOOGLE_DRIVE_RAPAT" target="_blank">Buka Tautan</a>
       </div>
 
       <div class="card">
-        <h3>📅 Kegiatan Timker SMP</h3>
+        <h3>📅 Kegiatan</h3>
         <p>Dokumentasi dan laporan kegiatan</p>
         <a href="LINK_GOOGLE_DRIVE_KEGIATAN" target="_blank">Buka Tautan</a>
       </div>
 
       <div class="card">
         <h3>📁 Program Kerja</h3>
-        <p>Dokumen arsip pendukung</p>
+        <p>Dokumen pendukung tambahan</p>
         <a href="LINK_GOOGLE_DRIVE_ARSIP" target="_blank">Buka Tautan</a>
       </div>
-      -->
 
     </div>
   </div>
 
-  <!-- ================= FOOTER ================= -->
   <footer>
     © 2026 | Tim Kerja SMP – BBPMP Provinsi Jawa Barat
   </footer>
